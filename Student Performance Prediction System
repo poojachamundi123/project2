@@ -1,0 +1,57 @@
+Student Performance Prediction using Machine Learning
+Project Overview
+
+This project is a Machine Learning web application that predicts a student's final exam score based on their academic habits such as study hours, attendance, sleep hours, and previous scores. It helps in understanding how student behavior affects academic performance.
+
+Features
+Predicts student final score using ML model
+Simple and interactive Streamlit web app
+Uses real dataset in CSV format
+Fast and accurate predictions
+Easy to use interface
+
+Machine Learning Model
+
+Algorithm: Linear Regression
+Type: Supervised Learning (Regression)
+Target: Final Score prediction
+
+Input Features
+Study Hours
+Attendance
+Sleep Hours
+Previous Score
+
+Output
+Predicted Final Exam Score (0–100)
+
+Technologies Used
+Python 
+Pandas
+NumPy
+Scikit-learn
+Streamlit
+
+Project Structure
+student-performance-project
+student_performance.csv
+app.py
+README.md
+
+How to Run the Project
+1. Install required libraries
+pip install pandas numpy scikit-learn streamlit
+2. Run Streamlit app
+streamlit run app.py
+Project Output
+
+Enter student details and get predicted score instantly.
+
+Future Improvements
+Add more ML models (Random Forest, XGBoost)
+Improve accuracy
+Deploy online (Streamlit Cloud / Render)
+Add graphical dashboard
+Conclusion
+
+This project demonstrates how Machine Learning can be used in education to predict student performance and help improve learning outcomes.
